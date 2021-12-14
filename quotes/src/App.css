@@ -1,9 +1,32 @@
 .App {
   text-align: center;
 }
+.boxik {
+  /* text-align: center; */
+  background-color: "#ECB365";
 
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+button {
+  background-color: transparent;
+  height: 40px;
+  width: 80%;
 
-
-
-
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
